@@ -133,7 +133,6 @@ nav ul li a:hover{
 }
 
 .col-md-5{
-    flex-basis: 40%;
     position: relative;
 }
 
@@ -159,11 +158,6 @@ nav ul li a:hover{
     font-size: 20px;
 }
 
-.reg-btn{
-    display: flex;
-    align-content: space-between;
-}
-
 .button{
     width: 190px;
     border: 0;
@@ -173,7 +167,7 @@ nav ul li a:hover{
     background: var(--thalia-base);
     border-radius: 6px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-bottom: 10px;
     transition: 0.3s;
     display: flex;
     justify-content: center;
@@ -197,7 +191,6 @@ nav ul li a:hover{
 
 .col-md-7{
     position: relative;
-    flex-basis: 60%;
     display: flex;
     align-items: center;
 }
