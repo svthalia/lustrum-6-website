@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #000;
 }
 
 body{
-    background-color: #000;
+    background: radial-gradient(circle, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 80%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     color: #fff;
 }
 
@@ -90,14 +92,13 @@ body{
 }
 
 .logo{
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .navbar{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #000;
 }
 
 nav {
@@ -207,7 +208,6 @@ nav ul li a:hover{
 }
 
 .col-xxl-1{
-    background-color: #000;
     color: #fff;
 }
 
