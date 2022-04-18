@@ -180,6 +180,24 @@ nav ul li a:hover{
     color: #000;
 }
 
+.buttonclsd{
+    width: 190px;
+    border: 0;
+    padding: 12px 5px;
+    outline: none;
+    color: red;
+    background: transparent;
+    border-radius: 6px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .col-md-5::after{
     content: '';
     width: 10px;
