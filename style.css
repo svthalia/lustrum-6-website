@@ -194,8 +194,13 @@ nav ul li a:hover{
     margin-bottom: 10px;
     transition: 0.3s;
     display: flex;
+    cursor: pointer;
     justify-content: center;
     text-decoration: none;
+}
+
+.buttonclsd:hover{
+    color:#fff;
 }
 
 .col-md-5::after{
